@@ -1,0 +1,339 @@
+html {
+  height: 100%;
+}
+@font-face {
+  font-family: "BlairCC";
+  font-style: normal;
+  src: url("BlairMdITC_TT_Medium.ttf");
+}
+@font-face {
+  font-family: "CenturyG";
+  font-style: normal;
+  src: url("gothic.ttf");
+}
+body {
+  background: #fff;
+  padding: 0;
+  text-align: center;
+  font-family: 'Arial';
+  position: relative;
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+.pagePrincipal{
+  height: 100%;
+}
+.page{
+  height: auto;
+}
+.wrapper {
+  padding: 0;
+  min-height: 600px;
+	height: 100% !important;
+	margin: 0 auto; 
+}
+.textoVerde{
+  color: #76C5A4;
+}
+.textoVerdeBold{
+  font-weight: bold;
+  color: #76C5A4;
+  font-style: normal;
+  font-family: 'Arial';
+}
+.caja{
+  display: block;
+}
+.lineaVertical{
+  background-image: url(elementos/linea.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30px;
+}
+.linea{
+  background-image: url(elementos/linea.png);
+  background-repeat:repeat-y;
+  background-position: center;
+  margin-top: 0px;
+  height: 100px;
+
+}
+
+.numero{height: 40px; margin-bottom: 30px;}
+.titulo{
+  display: block;
+  font-size: 4.7vw;
+  height: auto;
+}
+.texto{
+  font-size: 1.6vw;
+  line-height: 1.2;
+  font-family: 'Calisto MT';
+  font-style: italic;
+  height: auto;
+}
+/******************************************************** INICIO ***********************************************/
+#inicio{
+  padding-top:40px;
+  text-align: center;
+  /*position: absolute;*/
+  height: 900px;
+}
+#baja{ 
+  width: 50%;
+  margin-left: 25%;
+  height: auto;
+  background-color: #76C5A4;
+  color: #FFF;   
+  font-family: 'BlairCC' !important; 
+  padding-top: 15px; 
+  padding-bottom: 15px;
+  margin-top: 70px; 
+  /*display: block;*/
+} 
+
+
+/******************************************************** NAVEGACION ***********************************************/
+
+#diamantesNavegacion{
+  position: fixed;
+  margin-top: 15%;
+  z-index: 10;
+}
+
+#diamantesNavegacion ul{ list-style: none;}
+
+#diamantesNavegacion li{
+  width: 16px;
+  height: 17px;
+  margin-top: 10px;
+}
+
+/******************************************************** HOME ***********************************************/
+#imagen-inicio{
+  margin-top: 5px;
+  margin-bottom: 5px; 
+  height: 100px;
+  cursor: pointer;
+}
+#imagen-inicio img{ height: 100%;}
+#imagen-decora1, #imagen-decora2{height:5%;}
+#imagen-decora2{overflow: hidden;}
+#imagenHome{
+  margin: 0% 0%;
+  height: 60%;
+  width: 100%;  
+  text-align: center;
+  background-image: url('elementos/imagenHOME.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#intro{height: auto;}
+#intro h1, #intro h2{
+  color: #fff;
+}
+#intro h1{
+  margin-top:20px;
+  font-weight: bold;
+  font-size: 6vw;
+}
+#h2{
+  font-family: 'CenturyG' !important;
+  font-size: 2.4vw;
+  margin-top: -2%;
+  color: #fff;
+  font-weight: normal;
+}
+#quienes{
+  font-family: 'BlairCC' !important;
+  margin-top: 0.5%;
+  height: 5%;
+  font-size: 0.9vw;
+  overflow: hidden;
+  letter-spacing: 0.2em;
+}
+#cuadroVerde {
+  padding: 2%;
+  overflow: hidden;
+  letter-spacing: 0.2em;
+  background-color: #76C5A4;
+  color: #fff;
+  font-size: 0.8vw;
+  margin-bottom: 2%;
+  display: block;
+  font-family: 'BlairCC' !important;
+}
+#redesSociales{
+  text-align: center;
+}
+#redesSociales {
+  margin-top: 1%;
+  list-style: none;
+}
+#redesSociales ul >li{
+    display: inline;
+    margin-right: 2%;
+}
+#flecha2{
+  height: 33px;
+}
+
+ul, ol{
+  padding: 0 0 0 10px;
+}
+/******************************************************** QUIENES SOMOS ***********************************************/
+#quienesSomosImg{
+  background-image: url("elementos/imagenQUIENES.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 145px;
+}
+#quienesSomosTxt{height: auto; margin-bottom: 50px;}
+#chica{height: 237px !important; width:210px; margin-top: -92px;}
+#flecha3{  overflow: hidden;}
+
+/******************************************************** PRODUCTOS ***********************************************/
+
+#galeriaProd{
+  margin-top: 70px;
+}
+#galeriaProd li > label{
+  font-size: 1.5vw;
+}
+#tambien{margin-top: 40px; margin-bottom: 50px;}
+#galeriaProd li {
+  /*opacity: 0;*/
+}
+#galeriaProd li > img{
+    -moz-box-shadow: 3px 3px 5px #000000;
+    -webkit-box-shadow: 3px 3px 5px #000000;
+    box-shadow: 3px 3px 5px #000000;
+    margin-bottom: 20px;
+}
+/******************************************************** EXPERIENCIA ***********************************************/
+
+#experienciaImg{
+  height: 160px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.textoNegroItalico{
+  font-weight: bold;
+}
+#experienciaTxt{
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+/******************************************************** OFERTA ***********************************************/
+#ofertaImg{
+  background-image: url("elementos/imagenOFERTASregalo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 50px;
+  height: 280px;
+  margin-bottom: 50px;
+}
+#ofertaImg img{margin-top: 77px;}
+#ofertaTxt{
+  height: auto;
+  font-size: 4vw;
+}
+/******************************************************** UBICACION ***********************************************/
+#map-canvas {
+  height: 300px;
+  margin-top: 50px;
+}
+
+#dir{
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+
+
+/******************************************************** CONTACTO ***********************************************/
+form{
+  margin-top: 50px;
+}
+.labelForm {
+  font-family: 'Calisto MT';
+  font-style: italic;
+  font-size: 1.5vw;
+}
+input[type="text"], input[type="email"], textarea {
+  border-color: #000;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+  border-color: #000;
+}
+input[type="button"], input[type="submit"]{
+  background-color: #76C5A4;
+  color: #fff;
+  border:none;
+  padding: 5px;
+}
+#gracias{
+  margin-top: 50px;
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 2vw;
+  margin-bottom: 50px;
+}
+#botones{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/******************************************************** FOOTER ***********************************************/
+#footer{
+  font-family: 'BlairCC' !important;
+  color: #76C5A4;
+  margin-bottom: 30px;
+  font-size: 11px;
+}
+#footer a{
+  font-family: 'BlairCC' !important;
+  color: #76C5A4;
+  font-size: 11px;
+}
+/******************************************************** MEDIA QUERIES ***********************************************/
+@media (max-width: 1050px) {
+  body{font-size: 12px;}
+  #intro h1{ font-size: 4.5em !important;}
+  #h2{ font-size:1.5em !important;}
+  #diamantesNavegacion{display: none;}
+  #chica{z-index: -1; float: right; }
+  #quienesSomosImg{ z-index: -1; }
+  #map-canvas, form{margin-bottom: 50px;}
+  #limpiarBtn{ margin-bottom: 10px;}
+  #cuadroVerde{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size:1.4vw;
+  }
+}
+@media (max-width: 700px) {
+  /*body{background-color: red}*/
+  #intro h1{ font-size: 3em !important;}
+  #h2{ font-size:1.2em !important;}
+
+  #baja, #cuadroVerde{
+    line-height: 1.2;
+    width: 70%;
+    margin-left:15%;
+    /*margin-right: 25%;*/
+  }
+  #cuadroVerde{    font-size:0.8em !important;}
+  .titulo{font-size: 50px !important;}
+  #quienes{font-size: 2vw; }
+
+  .texto{font-size: 5vw;}
+  #galeriaProd li > label{font-size: 4vw;}
+  .labelForm{font-size: 3vw;}
+  #gracias{font-size: 3vw;}
+}
